@@ -6,7 +6,10 @@ pool:
 #Your build pipeline references a secret variable named ‘subscription_id’. Create or edit the build pipeline for this YAML file, define the variable on the Variables tab, and then select the option to make it secret. See https://go.microsoft.com/fwlink/?linkid=865972
 
 variables:
-  global_variable: hello
+  global_variable: $(sp_password)
+  global_variable: $(sp_tenantid)
+  global_variable: $(sp_username)
+  global_variable: $(subscription_id)
 
 trigger:
 - master
