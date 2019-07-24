@@ -1,6 +1,6 @@
 {
-    "subscription_id": "<>",
-    "resource_group": "DevOps_AzureML_Demo",
-    "workspace_name": "AzureML_Demo_ws",
+    "subscription_id": "60c4e16f-1b86-45cf-a961-035631ee2924",
+    "resource_group": "chrisisaac",
+    "workspace_name": "bert-ws",
     "location": "southcentralus"
 }
